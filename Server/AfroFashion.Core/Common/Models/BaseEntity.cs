@@ -4,7 +4,7 @@ using System.Text;
 
 namespace AfroFashion.Core.Common.Models
 {
-    class BaseEntity
+    public class BaseEntity
     {
         Guid Id { get; set; }
     }
